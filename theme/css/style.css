@@ -2888,6 +2888,10 @@ textarea.form-control.is-invalid {
   font-weight: bold;
   
 }
+.vv{
+  width:5vw;
+  height:8vh;
+}
 @media (max-width:920px){
   .sloke{
     line-height: 4vh;
