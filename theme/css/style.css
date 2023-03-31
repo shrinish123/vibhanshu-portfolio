@@ -2881,6 +2881,19 @@ textarea.form-control.is-invalid {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+.sloke{
+  position: relative;
+ font-size: 1.5rem;
+  line-height:7vh;
+  font-weight: bold;
+  
+}
+@media (max-width:920px){
+  .sloke{
+    line-height: 4vh;
+    font-size: 1rem;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
