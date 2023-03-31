@@ -492,6 +492,32 @@ progress {
   font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
   line-height: 1.2;
+
+}
+.imgInit {
+  position: relative;
+  width:15vw;
+  height: 20vh;
+  border-radius: 5px;
+}
+.imgInit1 {
+  position: relative;
+  width:8vw;
+  height: 20vh;
+  border-radius: 5px;
+}
+@media (max-width:920px){
+  .imgInit{
+    position:relative;
+    width: 40vw;
+    height:20vh;
+  }
+  .imgInit1 {
+    position: relative;
+    width:27vw;
+    height: 20vh;
+    border-radius: 5px;
+  }
 }
 @media (min-width: 1200px) {
   .display-3 {
@@ -3750,6 +3776,10 @@ textarea.form-control-lg {
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
+}
+.slide {
+  width: 2vw;
+  padding-right: 5vw;
 }
 
 @media (min-width: 576px) {
